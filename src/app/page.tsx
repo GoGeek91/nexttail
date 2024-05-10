@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { SettingModal } from "./modaldemo/page";
+import { SettingModal } from "./modaldemo/SettingModal";
 
 export default function Home() {
   return (

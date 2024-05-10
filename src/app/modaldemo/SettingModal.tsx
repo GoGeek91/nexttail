@@ -1,3 +1,4 @@
+"use client";
 import { DialogHeader, DialogTitle } from "@/components/modal/dialog";
 import { ModalWrapper } from "@/components/modal/modalWrapper";
 import { DialogDescription } from "@radix-ui/react-dialog";
@@ -20,7 +21,7 @@ export const SettingModal = () => {
               <DialogHeader>
                 <DialogTitle className="text-black">Edit profile</DialogTitle>
                 <DialogDescription className="text-black">
-                  Make changes to your profile here. Click save when you're done.
+                  Make changes to your profile here. Click save when done.
                 </DialogDescription>
               </DialogHeader>
               <div className=" space-y-2">
