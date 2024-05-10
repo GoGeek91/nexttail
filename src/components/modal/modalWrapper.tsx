@@ -32,7 +32,7 @@ const ModalWrapper = ({
   if (isDesktop) {
     return (
       <Dialog open={open} onOpenChange={setOpen}>
-        <DialogTrigger className={cn("w-full text-black", modalTriggerclass)} asChild>
+        <DialogTrigger className={cn("w-full text-white", modalTriggerclass)} asChild>
           {ModalTrigger}
         </DialogTrigger>
         <DialogContent className="xs:w-[350px] bg-white">
@@ -50,7 +50,7 @@ const ModalWrapper = ({
 
   return (
     <Dialog open={open} onOpenChange={setOpen}>
-      <DialogTrigger className={cn("w-full text-black", modalTriggerclass)} asChild>
+      <DialogTrigger className={cn("w-full text-white", modalTriggerclass)} asChild>
         {ModalTrigger}
       </DialogTrigger>
       <DialogContent className="xs:w-[350px] bg-white">
